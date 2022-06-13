@@ -10,7 +10,8 @@ val spinalIdslPlugin = compilerPlugin("com.github.spinalhdl" %% "spinalhdl-idsl-
 lazy val mylib = (project in file("."))
   .settings(
     name := "SpinalTemplateSbt",
-    libraryDependencies ++= Seq(spinalCore, spinalLib, spinalIdslPlugin)
+    libraryDependencies ++= Seq(spinalCore, spinalLib, spinalIdslPlugin),
+    libraryDependencies += "org.scala-lang.modules" %% "scala-swing" % "3.0.0"
   )
 
 fork := true
