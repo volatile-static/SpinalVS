@@ -2,6 +2,7 @@
 A **V**isualized **S**imulation interface for [**Spinal**HDL](https://index.scala-lang.org/spinalhdl/spinalhdl) based on [swing](https://index.scala-lang.org/scala/scala-swing).
 ## Introduction
 ![gui](gui.png)
+
 This tool is designed to helps us verify simple circuits rapidly. 
 We can simulate a synchronous sequential circuit visually.
 
