@@ -12,7 +12,7 @@ A proper SpinalHDL simulation [environment](https://spinalhdl.github.io/SpinalDo
 ## Usage
 1. Copy [the folder](./src/main/scala/spinalvs) to your project
 2. Give a `Copmonent` to `SpinalVS`, just the same as `SpinalVerilog`.
-3. [Exmple](./src/main/scala/MyTopLevel.scala#26):
+3. [Example](./src/main/scala/MyTopLevel.scala#L26):
 ```scala
 SpinalVS(new MyTopLevel)
 ```
