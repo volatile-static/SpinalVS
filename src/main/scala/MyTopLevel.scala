@@ -22,6 +22,6 @@ class MyTopLevel extends Component {
 
 // Simulate the MyTopLevel
 object MyTopLevelVisualSimulation extends App {
-  SpinalVerilog(new MyTopLevel)
+  // SpinalVerilog(new MyTopLevel)
   SpinalVS(new MyTopLevel)
 }
