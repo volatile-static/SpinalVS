@@ -28,3 +28,5 @@ SpinalVS(new MyTopLevel)
 4. support csv file import/export 
 5. add svg waveform
 6. optimize user interface
+7. add support for nested scope
+8. 
